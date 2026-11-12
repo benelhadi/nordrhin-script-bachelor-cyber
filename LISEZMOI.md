@@ -62,7 +62,7 @@ Les journaux archivés citent les adresses de production de l'entreprise (`10.20
 ## Si quelque chose se passe mal
 
 - **Le script refuse de se relancer** : il ne s'exécute qu'une fois. Reviens à l'instantané pris avant le script, ou réinstalle la machine.
-- **Erreur pendant le script Linux** : note le message, reviens à l'instantané d'avant, relance. Si l'erreur revient, envoie le message complet à ton formateur.
+- **Erreur pendant le script Linux** : note le message, reviens à l'instantané d'avant, relance. Si l'erreur revient, envoie moi le message complet .
 - **La création du domaine échoue** : vérifie l'adresse IP fixe et que le mot de passe du compte Administrateur local est défini.
 - **L'évaluation de Windows Server affiche un compte à rebours** : elle dure 180 jours, largement assez pour le projet.
 
