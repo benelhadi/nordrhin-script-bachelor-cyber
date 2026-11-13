@@ -4,7 +4,7 @@ Projet NordRhin Distribution - mise en place de DC01 (Windows Server 2022)
 Ce script met la machine dans l'etat de depart du projet : domaine nordrhin.local,
 comptes, groupes, partage, taches negligees et journaux archives de l'incident.
 Il n'installe aucun programme malveillant : tout est configuration ou texte.
-A lancer en administrateur, sur une VM dediee au projet. Jamais sur une vraie machine.
+A lancer en administrateur, sur la VM dediee au projet. Jamais sur une vraie machine.
 
 Le script se lance TROIS fois, avec un redemarrage entre chaque etape :
   1. renommage de la machine en DC01            -> redemarrage
