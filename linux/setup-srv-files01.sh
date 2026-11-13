@@ -4,7 +4,7 @@
 # Ce script met la machine dans l'etat de depart du projet : comptes, groupes,
 # partage, configurations negligees et journaux archives de l'incident.
 # Il n'installe aucun programme malveillant : tout est configuration ou texte.
-# A lancer UNE fois, en root, sur une VM dediee au projet. Jamais sur une vraie machine.
+# A lancer UNE fois, en root, sur la VM dediee au projet. Jamais sur une vraie machine.
 #
 # Usage : sudo bash setup-srv-files01.sh prenom.nom
 
@@ -17,7 +17,7 @@ PREUVES=/srv/preuves
 die() { echo "ERREUR : $*" >&2; exit 1; }
 info() { echo "[nordrhin] $*"; }
 
-# Valeurs propres a l'etudiant, derivees de son identifiant (meme calcul cote Windows)
+# Valeurs propres à vous , derivees de votre identifiant (meme calcul cote Windows)
 calcul_valeurs() {
   local id="$1"
   H=$(printf '%s' "$id" | sha256sum | cut -c1-16)
